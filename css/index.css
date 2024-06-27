@@ -1,0 +1,43 @@
+.title{
+   
+    color: royalblue;
+    font-size: 5em;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.tit{
+text-align: center;
+color: royalblue;
+}
+
+.me{
+    text-align: center;
+    margin: 10px;
+    font-weight: 500;
+    font-size: 1em;
+    color: aliceblue;
+}
+
+.para{
+   
+    color: royalblue;
+    text-align: center; 
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.mainpara{
+   color: rgb(255, 255, 255);
+   text-align: justify;
+   text-align: center;
+}
+
+.tab{
+    border-spacing: 30px;
+}
