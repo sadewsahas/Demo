@@ -1,7 +1,7 @@
 .title{
    
     color: royalblue;
-    font-size: 5em;
+    font-size: 3em;
     padding: 10px;
     margin: 15px;
     border-radius: 15px;
@@ -28,7 +28,7 @@ color: royalblue;
    
     color: royalblue;
     text-align: center; 
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 600;
 }
 
@@ -41,3 +41,126 @@ color: royalblue;
 .tab{
     border-spacing: 30px;
 }
+
+.container-fluid{
+    border-radius: 20px;
+    color: royalblue;
+    background-color: rgb(204, 215, 248);
+   
+    
+}
+.alert{
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card{
+    border-color: royalblue;
+    border-width: 5px;
+    background-color: rgb(234, 239, 251);
+    margin-right: 25px;
+    margin-left: 15px;
+
+    
+}
+
+.card-subtitle{
+    text-align: center;
+    font-size: smaller;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.row{
+    background-color: rgb(234, 239, 251);
+    border-radius: 20px;
+}
+
+.service-title{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.service-title div{
+    padding: 40px;
+    border-radius: 20px;
+    
+    background: rgb(234, 239, 251)
+    transition: background 0.5s, transform 0.5s;
+}
+
+.service-title div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.service-title div:hover{
+    background:  aliceblue;
+    transform: translateY(-10px);
+}
+
+.work-title{
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+
+}
+
+.work-title div{
+    padding: 40px;
+    border-radius: 20px;
+    
+    background: rgb(234, 239, 251)
+    transition: background 0.5s, transform 0.5s;
+}
+
+.work-title div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.work-title div:hover{
+    background:  aliceblue;
+    transform: translateY(-10px);
+}
+
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+
+}
+.contact-left p i{
+   margin-right: 15px;
+   font-size: 25px;
+}
+
+.social{
+    margin-top: 30px;
+
+}
+.social a{
+   font-size: 30px;
+   margin-right: 15px;
+   display: inline-block;
+
+    
+}
+
+.contact-right{
+    width: 100px;
+
+}
+
