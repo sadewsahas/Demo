@@ -56,13 +56,15 @@ color: royalblue;
     text-align: center;
 }
 
-.card{
+.card-body{
     border-color: royalblue;
     border-width: 5px;
     background-color: rgb(234, 239, 251);
-    margin-right: 25px;
-    margin-left: 15px;
-
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    height: auto;
+    width: auto;
     
 }
 
